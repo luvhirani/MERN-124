@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    border: 1px solid black;
+    display: flex;
+}
+
+
+
+.search img{
+    height: 30px;
+}
+
+.category{
+    border: 2px solid black;
+    /* height: 200px; */
+}
+
+.electronics{
+    
+    display: grid;
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(2, 150px);
+
+}
+
+.electronics img{
+    height: 100px;
+    width: 100px;
+}
+
+.electronics{
+    display: ;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            height: 200px;
+            width: 800px;
+            background-color: blue;
+        }
+
+        /*small device */
+        @media (max-width:768px){
+            #box{
+                background-color: green;
+                height: 100px;
+                width: 100px;
+            }
+        }
+
+        /* medium devices */
+        @media (min-width:769px ) and (max-width:990px){
+            #box{
+                background-color: black;
+                height: 200px;
+                width: 200px;
+            }
+        }
+
+        /* large */
+        @media (min-width:991px){
+            #box{
+                background-color: red;
+                height: 500px;
+                width: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+
+    </div>
+</body>
+</html>

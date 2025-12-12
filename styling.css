@@ -1,0 +1,36 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+}
+h2{
+    color: blue;
+}
+
+h1{
+    color: beige !important
+}
+
+h3{
+    color: green;
+}
+
+h4{
+    color: aqua 
+}
+
+p{
+    background-color: red;
+    color: yellow;
+}
+
+h5,h6{
+    color: orange;
+}
+
+#h4-id{
+    color: darkgray;
+}
+
+.head{
+    color: darkviolet;
+}

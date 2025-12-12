@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        #id{
+            background-color: blue;
+        }
+        .class{
+            background-color: green;
+        }
+
+        .product{
+            border: 2px solid black;
+        }
+        #para{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Document Object Model</h1>
+    <h2 id="id">ID</h2>
+
+    <h2 class="class">Class</h2>
+
+    <h3 class="class">Another class</h3>
+
+    <p id="change">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio eum temporibus quo neque autem voluptatibus. Repudiandae architecto eum molestias cum voluptatum quos modi odit soluta eaque vel. Repellat, dolores.</p>
+    
+    <div class="product">
+        <h1>Jacket</h1>
+         <!--This is my comment  -->
+        <p>499$</p> 
+        <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, autem.</p>
+    </div>
+    <br>
+    <button on="console.log('button is clicked')" >Submit</button>
+    <button id="login">Login</button>
+
+    <input type="search">
+    <button>Search</button>
+
+    <script src="script.js">
+        // let element = document.getElementById("id")
+        // let element = document.querySelector(".product").innerHTML
+        // let element1 = document.querySelector(".product").innerText
+        // let element2 = document.querySelector(".product").textContent
+        // console.log(element)
+        // console.log(element1)
+        // console.log(element2)
+
+        // let changeElement = document.querySelector("#change")
+        // changeElement.innerText = "This para has been changed"
+        // console.log(changeElement)
+
+    </script>
+</body>
+</html>
