@@ -5,6 +5,8 @@ git branch -M main
 git remote add origin https://github.com/luvhirani/MERN-124.git
 git push -u origin main
 
+git clone https://github.com/luvhirani/MERN-124.git
+
 git status
 git log
 git remote -v
