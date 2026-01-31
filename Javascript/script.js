@@ -1,5 +1,7 @@
 // console.log("Javascript Day 2")
 
+
+
 // let a = 10;
 // let b = 15;
 
@@ -400,10 +402,34 @@ let arr2 = [4,5,6]
 // console.log(arr1)
 // console.log(splicedArr)
 
+// for-each
+// works with array only, does not change the orig array, 
+let arr3 = [1,2,3,4,5]
+let str3 = "Hello World"
+
+let forEach = arr3.forEach((value,index)=>{
+    console.log("Value:",value)
+    // console.log("Index:",index)
+    // return {value,index};
+})
+
+console.log(forEach)
+
+// for-of
+// array and string
+// for(let nums of arr3){
+//     console.log(nums+1)
+//     return nums*2
+// }
+for(let words of str3){
+    console.log(words)
+}
+
+
 
 // map(), filter(), reduce()
 // hof, cf
-let arr3 = [1,2,3,4,5]
+// let arr3 = [1,2,3,4,5]
 
 // let square = arr3.map((number,index)=>{
 //     let sqNum = number * number
@@ -454,6 +480,12 @@ let str2 = str.concat(" ",str1)
 
 // console.log("hello" == "HELLO")
 
+// string template literals
+let name = "Raj"
+
+// console.log("Hello, Good Morning . How are you ?",name)
+// console.log(`Hello, Good Morning ${name}. How are you ${name} ?`)
+
 // Objects 
 let laptop = {
     color : "grey",
@@ -470,6 +502,19 @@ let laptop = {
         processor : "i7"
     }
 }
+
+// for-in
+// works in objects only 
+for(let key in laptop){
+    console.log(key)
+}
+
+// let laptopColor = laptop.color;
+// console.log(laptopColor)
+
+let {color} = laptop
+// console.log(color)
+
 // console.log(laptop.color)
 // console.log(laptop.company)
 // laptop.trackPad()
@@ -549,6 +594,6 @@ let laptop = {
 
 
 // iife -> immediately invoked function expression
-(function (){
-    console.log("inside iife")
-})();
+// (function (){
+//     console.log("inside iife")
+// })();
